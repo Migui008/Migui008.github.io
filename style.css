@@ -11,14 +11,6 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-.link { color: #2980b9; 
-    text-decoration: none; 
-}
-
-.link:hover {
-    color: #50C5B7;
-}
-
 ul {
   list-style-type: square;
   padding-left: 20px;
@@ -29,15 +21,51 @@ ul {
   margin: 0 auto;
 }
 
+proyecto-php" class="link">Ver en GitHub</a>
+  </p>
+  <a href="https://migui008.infinityfreeapp.com/php" class="btn">Ver proyecto</a>
+</div>
+🎨 Estilo CSS actualizado (agrega esto en style.css)
+css
+Copiar
+Editar
 .card {
   background-color: #1e1e1e;
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 1rem;
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-  transition: transform 0.2s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.card:hover {
-  transform: scale(1.02);
+.link {
+  color: #80cbc4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #4dd0e1;
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: #292929;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #4dd0e1;
+  color: #000000;
 }
